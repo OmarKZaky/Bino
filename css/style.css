@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Glory', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)), url(../assets/Nature.jpeg);
+    height: 100vh;
+    clip-path: polygon(0% 0%, 100% 0, 100% 85%, 50% 100%, 0 86%);
+    padding-bottom: 40rem;
+}
+
+.no-hover {
+    pointer-events: none;
+    cursor: pointer;
+}
+
+nav{
+    width: 100%;
+    height: 81px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    padding: 30px 0px;
+}
+
+.nav-container {
+    position: absolute;
+    width: 100%;
+    margin: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    padding-inline: 10px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+nav li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+nav .logo {
+    font-size: 40px;
+    font-weight: 600;
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.carousel-indicators {
+    top: 22rem;
+}
+
+.carousel-inner {
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.our-client {
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.title {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.parag {
+    color: rgba(255,255,255,0.6);
+}
+
+.text-align {
+    text-align: center;
+}
+
+.circle {
+    font-size: 30px;
+    color: red;
+    position: relative;
+    padding-top: 5px;
+}
+
+.circle::before {
+    content: '';
+    position: absolute;
+    border-top: 2px solid #fff;
+    width: 120px;
+    top: 23px;
+    left: 34rem;
+}
+
+.circle::after {
+    content: '';
+    position: absolute;
+    border-top: 2px solid #fff;
+    width: 120px;
+    top: 23px;
+    right: 34rem;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.button {
+    padding: 12px 10px;
+    margin: 0 13px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid grey;
+    transition: 0.6s;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    background-color: rgb(177, 19, 19);
+    transition: 0.6s;
+    border: none;
+    outline: none;
+}
+
+.blocks {
+    padding-top: 40px;
+    padding-inline: 40px;
+}
+
+.blocks i {
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+.block {
+    padding: 30px;
+}
+
+.block p {
+    padding-block: 10px;
+}
+
+.block-title {
+    font-size: 28px;
+}
+
+/* .block-title::after {
+    content: '';
+    border-bottom: 5px double;
+    width: 100px;
+    position: absolute;
+    bottom: -11rem;
+    right: 50rem;
+} */
+
+/* .block:hover > .block i{
+    color: red;
+    cursor: pointer;
+} */
